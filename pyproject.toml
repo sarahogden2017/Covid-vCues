@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "covidcrawler"
+version = "0.1.0"
+description = ""
+authors = ["Sarah Ogden <sarahogden2017@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Scrapy = "^2.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
