@@ -2,9 +2,8 @@ To-Do:
 - Develop web crawler for Covid images
   - Parse datasets for URLs to crawl
     1. CoAID dataset: https://github.com/cuilimeng/CoAID -- done
-    2. 
-    3.
-      
+    2. MM-COVID dataset?
+    3. Covid-Recoveru dataset?
 
 - Develop image classifier
   - Sort images into categories
