@@ -22,5 +22,5 @@ This dataset is still underdevelopment and not yet ready for use.
 
 ## Contributors
 
-Sarah Ogden
+Sarah Ogden  
 Professor Ankur Chattopadhyay (Project Advisor)
