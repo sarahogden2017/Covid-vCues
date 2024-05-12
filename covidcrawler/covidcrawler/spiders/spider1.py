@@ -11,10 +11,12 @@ class Spider1Spider(scrapy.Spider):
         '''
         Request all urls in input file -- outputReal.txt
         '''
-        # with open('../outputReal.txt', 'r') as f:
-        #     urls = f.readlines()
-        urls = ['https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters','https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19-pregnancy-and-childbirth']
+        with open('../NewsRealUrl.txt', 'r') as f:
+            urls = f.readlines()
         for url in urls:
+            # Prepend 'http://' if the URL is missing the scheme
+            if not url.startswith('http'):
+                url = 'http://' + url.strip()  # Strip newline character
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
