@@ -1,6 +1,6 @@
 # COVID vCues Dataset
 
-This is a dataset research project developed by Sarah Ogden to assist Professor Ankur Chattopadhyay's COVID vCues research by creating a multi-modal dataset containing images sourced from reliable and unreliable sources on COVID-19.
+This is a dataset research project developed to assist Professor Ankur Chattopadhyay's COVID vCues research by creating a multi-modal dataset containing images sourced from reliable and unreliable sources on COVID-19.
 
 ## Sources
 
