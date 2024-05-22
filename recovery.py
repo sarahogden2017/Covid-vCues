@@ -18,7 +18,7 @@ def parse_news_csv(file, output, reliability_column_index):
 
 def main():
     '''
-    Main function to iterate through the CoAID dataset
+    Main function to iterate through the ReCoVery dataset
     '''
     # iterate through the recovery dataset
     ReCoVery_path = 'recovery-news-data'
