@@ -3,7 +3,7 @@ To-Do:
   - Parse datasets for URLs to crawl
     1. CoAID dataset: https://github.com/cuilimeng/CoAID -- done
     2. MM-COVID dataset?
-    3. Covid-Recoveru dataset?
+    3. Covid-Recoveru dataset: https://github.com/apurvamulay/ReCOVery/tree/master
 
 - Develop image classifier
     Image Categories:
