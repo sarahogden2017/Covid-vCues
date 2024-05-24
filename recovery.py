@@ -1,7 +1,7 @@
 import os
 import csv
 
-#Parse the urls for Recovery dataset
+#Parse the urls for Recovery dataset with reliable = 1
 def parse_news_csv(file, output, reliability_column_index):
     '''
     Parse csv news files based on reliability column
