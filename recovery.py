@@ -1,39 +1,46 @@
+'''
+Script to parse a specific ReCoVery dataset file for URLs based on reliability
+'''
+
 import os
 import csv
 
-#Parse the urls for Recovery dataset with reliable = 1
-def parse_news_csv(file, output, reliability_column_index):
+def parse_urls_csv(file, reliable_output, unreliable_output):
     '''
-    Parse csv news files based on reliability column
+    Parse csv news files based on reliability
     '''
     with open(file, 'r') as f:
+        #print(file)
         reader = csv.reader(f)
-        # extract the URL column and reliability column
+        # iterate through each line in the csv file
         for line in reader:
-            url = line[2]
-            reliability = int(line[reliability_column_index])
-            if reliability == 0:
-                with open(output, "a") as out_file:
-                    out_file.write(url + "\n")
+            url = line[2]  # 3rd column
+            reliability = line[11]  # 12th column
+            if reliability == '0':
+                output_file = unreliable_output
+            else:
+                output_file = reliable_output
+            with open(output_file, "a") as out_file:
+                out_file.write(url + "\n")
+
 
 def main():
     '''
-    Main function to iterate through the ReCoVery dataset
+    Main function to parse the specified ReCoVery dataset file based on reliability
     '''
-    # iterate through the recovery dataset
-    ReCoVery_path = 'recovery-news-data'
-    reliability_column_index = 12
-    for root, dirs, files in os.walk(ReCoVery_path):
-        for file in files:
-            path = os.path.join(root, file)
-            if 'reliable' in file:
-                parse_news_csv(path, 'reliableUrls.txt', reliability_column_index)
-            elif 'unreliable' in file:
-                parse_news_csv(path, 'unreliableUrls.txt', reliability_column_index)
+    # Specify the dataset file path
+    ReCoVery_path = 'recovery-news-data.csv'  # Update this path
 
-    # remove duplicates
-    os.system("sort reliableUrls.txt | grep -v 'news_url' | uniq > reliableUrls_tmp.txt && mv reliableUrls_tmp.txt reliableUrls.txt")
-    os.system("sort unreliableUrls.txt | grep -v 'news_url' | uniq > unreliableUrls_tmp.txt && mv unreliableUrls_tmp.txt unreliableUrls.txt")
+    # Output file paths
+    reliable_output = 'reliableUrls.txt'
+    unreliable_output = 'unreliableUrls.txt'
+
+    # Parse the dataset file
+    parse_urls_csv(ReCoVery_path, reliable_output, unreliable_output)
+
+    # Remove duplicates
+    os.system(f"sort {reliable_output} | uniq > {reliable_output}_tmp && mv {reliable_output}_tmp {reliable_output}")
+    os.system(f"sort {unreliable_output} | uniq > {unreliable_output}_tmp && mv {unreliable_output}_tmp {unreliable_output}")
 
 if __name__ == '__main__':
     main()
