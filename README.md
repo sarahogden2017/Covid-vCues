@@ -19,8 +19,3 @@ primaryClass={cs.SI}
 ## Usage
 
 This dataset is still underdevelopment and not yet ready for use.
-
-## Contributors
-
-Sarah Ogden  
-Professor Ankur Chattopadhyay (Project Advisor)
