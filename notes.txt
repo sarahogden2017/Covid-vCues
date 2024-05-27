@@ -6,6 +6,8 @@ To-Do:
     3. Covid-Recoveru dataset: https://github.com/apurvamulay/ReCOVery/tree/master
 
 - Develop image classifier
+    1. CNN for reliable vs unreliable
+    2. CNN for image categories
     Image Categories:
     1. Claims: Make some kind of statement about Covid (usually contain text)
     2. Fact Checks: Ratings from a 3rd party (i.e. Trust Pilot)
