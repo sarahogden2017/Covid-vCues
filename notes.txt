@@ -14,6 +14,8 @@ To-Do:
     5. Logos: Images portraying a brand, publisher, or company
     6. Misc: Have no impact on accuracy (icons, emojis, etc.)
 
-Sources:
+Learning Materials:
 - Scrapy in 30 minutes (start here.)
   - https://www.youtube.com/watch?v=r7pMqU2kYqc
+- CNN in Python: Keras  
+  - https://www.geeksforgeeks.org/python-image-classification-using-keras/
