@@ -5,6 +5,8 @@ To-Do:
     2. MM-COVID dataset: https://github.com/bigheiniu/MM-COVID/blob/main/README.md
     3. Covid-Recoveru dataset: https://github.com/apurvamulay/ReCOVery/tree/master
 
+- Remove duplicate images -- not sure how yet...  
+
 - Develop image classifier
     1. CNN for reliable vs unreliable
     2. CNN for image categories
