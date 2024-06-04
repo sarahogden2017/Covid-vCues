@@ -40,8 +40,8 @@ https://github.com/bigheiniu/MM-COVID/blob/main/README.md
 This dataset is still underdevelopment and not yet ready for use.
 
 ## Authors
-Sarah Ogden
-Shreetika Poudel
+Sarah Ogden  
+Shreetika Poudel  
 
 ## Helpful Tutorials
 - Scrapy in 30 minutes (start here.)
