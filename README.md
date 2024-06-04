@@ -3,6 +3,8 @@
 This is a dataset research project developed to assist Professor Ankur Chattopadhyay's COVID vCues research by creating a multi-modal dataset containing images sourced from reliable and unreliable sources on COVID-19. This dataset will be used to train multiple AI models: reliable vs unreliable images, identify memes, identify ads, and more TBD.
 
 ## To-Do
+- [X] Scrape CoAID (Sarah)
+- [X] Scrape ReCovery (Shreetika)
 - [ ] Scrape MM-Covid (Shreetika)
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
