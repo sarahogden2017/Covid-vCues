@@ -4,7 +4,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 
 ## To-Do
 - [X] Scrape CoAID (Sarah)
-- [X] Scrape ReCovery (Shreetika)      **Needs citation
+- [X] Scrape ReCovery (Shreetika)  
 - [ ] Scrape MM-Covid (Shreetika)
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
@@ -22,7 +22,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 
 The dataset based on **CoAID: COVID-19 Healthcare Misinformation Dataset**, ReCovery, and MM-Covid.
 
-**Citations:**
+**Citations:**  
 @misc {  
   cui2020coaid,  
   title={CoAID: COVID-19 Healthcare Misinformation Dataset},  
@@ -32,6 +32,8 @@ The dataset based on **CoAID: COVID-19 Healthcare Misinformation Dataset**, ReCo
   archivePrefix={arXiv},  
   primaryClass={cs.SI}  
 }
+https://github.com/apurvamulay/ReCOVery/tree/master  
+https://github.com/bigheiniu/MM-COVID/blob/main/README.md  
 
 ## Usage
 
@@ -40,3 +42,9 @@ This dataset is still underdevelopment and not yet ready for use.
 ## Authors
 Sarah Ogden
 Shreetika Poudel
+
+## Helpful Tutorials
+- Scrapy in 30 minutes (start here.)
+  - https://www.youtube.com/watch?v=r7pMqU2kYqc
+- CNN in Python: Keras  
+  - https://www.geeksforgeeks.org/python-image-classification-using-keras/
