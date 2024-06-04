@@ -4,7 +4,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 
 ## To-Do
 - [X] Scrape CoAID (Sarah)
-- [X] Scrape ReCovery (Shreetika)
+- [X] Scrape ReCovery (Shreetika)      **Needs citation
 - [ ] Scrape MM-Covid (Shreetika)
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
