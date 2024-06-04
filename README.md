@@ -1,6 +1,6 @@
 # COVID vCues Dataset
 
-This is a dataset research project developed to assist Professor Ankur Chattopadhyay's COVID vCues research by creating a multi-modal dataset containing images sourced from reliable and unreliable sources on COVID-19. This dataset will be used to train multiple AI models: reliable vs unreliable images, identify memes, identify ads, and more TBD.
+This is a dataset research project developed to assist Professor Ankur Chattopadhyay's COVID vCues research by creating a multi-modal dataset containing images sourced from reliable and unreliable sources on COVID-19. This dataset will be used to train multiple AI models: reliable vs unreliable images, and identify memes, ads, claims, fact-checks, or logos.
 
 ## To-Do
 - [X] Scrape CoAID (Sarah)
@@ -13,7 +13,9 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [ ] Develop category identifying models:  
       - [ ] Memes  
       - [ ] Ads  
-      - [ ] TBD  
+      - [ ] Claims  
+      - [ ] Fact-checks  
+      - [ ] Logos  
 - [ ] Analysis of dataset breakdown
 
 ## Sources
