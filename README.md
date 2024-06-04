@@ -8,10 +8,10 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [ ] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model
 - [ ] Decide on categories to train
-- [ ] Develop category identifying models
-      - [ ] Memes
-      - [ ] Ads
-      - [ ] TBD
+- [ ] Develop category identifying models:  
+      - [ ] Memes  
+      - [ ] Ads  
+      - [ ] TBD  
 - [ ] Analysis of dataset breakdown
 
 ## Sources
