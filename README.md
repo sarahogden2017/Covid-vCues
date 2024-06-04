@@ -31,7 +31,7 @@ The dataset based on **CoAID: COVID-19 Healthcare Misinformation Dataset**, ReCo
   eprint={2006.00885},  
   archivePrefix={arXiv},  
   primaryClass={cs.SI}  
-}
+}  
 https://github.com/apurvamulay/ReCOVery/tree/master  
 https://github.com/bigheiniu/MM-COVID/blob/main/README.md  
 
