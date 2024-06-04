@@ -18,7 +18,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 
 ## Sources
 
-The dataset based on the **CoAID: COVID-19 Healthcare Misinformation Dataset**.
+The dataset based on **CoAID: COVID-19 Healthcare Misinformation Dataset**, ReCovery, and MM-Covid.
 
 **Citations:**
 @misc {  
