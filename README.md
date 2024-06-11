@@ -8,7 +8,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [ ] Scrape MM-Covid (Shreetika)
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
-- [ ] Deep learning reliable vs unreliable model
+- [ ] Deep learning reliable vs unreliable model  
       - [X] Small test model (200 images each)       
 - [ ] Decide on categories to train
 - [ ] Develop category identifying models:  
