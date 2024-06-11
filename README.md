@@ -5,7 +5,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 ## To-Do
 - [X] Scrape CoAID (Sarah)
 - [X] Scrape ReCovery (Shreetika)  
-- [ ] Scrape MM-Covid (Shreetika)
+- [X] Scrape MM-Covid (Shreetika)
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model  
