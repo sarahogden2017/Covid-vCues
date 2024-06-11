@@ -47,4 +47,4 @@ Shreetika Poudel
 - Scrapy in 30 minutes (start here.)
   - https://www.youtube.com/watch?v=r7pMqU2kYqc
 - CNN in Python: Keras  
-  - https://www.geeksforgeeks.org/python-image-classification-using-keras/
+  - https://medium.com/metakratos-studio/python-based-ai-powered-by-tensorflow-and-keras-52140b1495e3
