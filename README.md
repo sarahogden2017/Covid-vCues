@@ -6,7 +6,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [X] Scrape CoAID (Sarah)
 - [X] Scrape ReCovery (Shreetika)  
 - [ ] Scrape MM-Covid (Shreetika)
-- [ ] Research Twarc: https://github.com/DocNow/twarc/blob/main/README.md (Sarah)  
+- [ ] Scrape tweets with Twikit  
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model  
@@ -49,4 +49,6 @@ Shreetika Poudel
 - Scrapy in 30 minutes (start here.)
   - https://www.youtube.com/watch?v=r7pMqU2kYqc
 - CNN in Python: Keras  
-  - https://medium.com/metakratos-studio/python-based-ai-powered-by-tensorflow-and-keras-52140b1495e3
+  - https://medium.com/metakratos-studio/python-based-ai-powered-by-tensorflow-and-keras-52140b1495e3  
+- Twikit Example: downloading media  
+  - https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py   
