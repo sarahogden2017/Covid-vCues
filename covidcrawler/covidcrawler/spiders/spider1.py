@@ -11,7 +11,7 @@ class Spider1Spider(scrapy.Spider):
         '''
         Request all urls in input file -- outputReal.txt
         '''
-        with open('../NewsRealUrl.txt', 'r') as f:
+        with open('../MMreliableUrls1.txt', 'r') as f:
             urls = f.readlines()
         for url in urls:
             # Prepend 'http://' if the URL is missing the scheme
