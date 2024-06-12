@@ -3,8 +3,8 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-train_dir = './train/'
-validation_dir = './validate/'
+train_dir = 'train/'
+validation_dir = 'validate/'
 
 # Process images
 train_datagen = ImageDataGenerator(
@@ -54,11 +54,24 @@ model.compile(optimizer='adam',
               loss='binary_crossentropy',
               metrics=['accuracy'])
 
+# Compute steps per epoch and validation steps
+train_steps_per_epoch = train_generator.samples // train_generator.batch_size
+validation_steps = validation_generator.samples // validation_generator.batch_size
+
+# Define callbacks - improves performance
+callbacks = [
+    keras.callbacks.ModelCheckpoint('model_checkpoint.keras', save_best_only=True),
+    keras.callbacks.EarlyStopping(monitor='val_loss', patience=3),
+    keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=0.001),
+    keras.callbacks.TensorBoard(log_dir='./logs')
+]
+
 # Model training
 history = model.fit(
-              train_generator,
-              steps_per_epoch=100,
-              epochs=10,
-              validation_data=validation_generator,
-              validation_steps=50
+    train_generator,
+    steps_per_epoch=train_steps_per_epoch,
+    epochs=10,
+    validation_data=validation_generator,
+    validation_steps=validation_steps,
+    callbacks=callbacks
 )
