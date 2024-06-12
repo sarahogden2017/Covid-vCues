@@ -6,6 +6,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [X] Scrape CoAID (Sarah)
 - [X] Scrape ReCovery (Shreetika)  
 - [ ] Scrape MM-Covid (Shreetika)
+- [ ] Research Twarc: https://github.com/DocNow/twarc/blob/main/README.md (Sarah)  
 - [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [ ] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model  
