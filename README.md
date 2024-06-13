@@ -51,4 +51,6 @@ Shreetika Poudel
 - CNN in Python: Keras  
   - https://medium.com/metakratos-studio/python-based-ai-powered-by-tensorflow-and-keras-52140b1495e3  
 - Twikit Example: downloading media  
-  - https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py   
+  - https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py  
+- Remove duplicate images
+  - https://towardsdatascience.com/find-and-remove-duplicate-images-in-your-dataset-3e3ec818b978   
