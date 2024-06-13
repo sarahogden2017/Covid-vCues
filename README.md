@@ -53,4 +53,6 @@ Shreetika Poudel
 - Twikit Example: downloading media  
   - https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py  
 - Remove duplicate images
-  - https://towardsdatascience.com/find-and-remove-duplicate-images-in-your-dataset-3e3ec818b978   
+  - https://towardsdatascience.com/find-and-remove-duplicate-images-in-your-dataset-3e3ec818b978
+  - https://pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/  
+  - https://medium.com/towheeio/deletion-of-duplicate-images-using-machine-learning-19b7b25e3493    
