@@ -9,15 +9,18 @@ class Spider2Spider(scrapy.Spider):
 
     def start_requests(self):
         '''
-        Request all urls in input file -- outputReal.txt
+        Request all urls in input file
         '''
-        with open('../NewsFakeUrl.txt', 'r') as f:
+        with open('../urls_MM/MMunreliableUrls3.txt', 'r') as f:
             urls = f.readlines()
         for url in urls:
             # Prepend 'http://' if the URL is missing the scheme
             if not url.startswith('http'):
                 url = 'http://' + url.strip()  # Strip newline character
-            yield scrapy.Request(url=url, callback=self.parse)
+            try:
+                yield scrapy.Request(url=url, callback=self.parse)
+            except:
+                print('invild url - continuing')
 
     def parse(self, response):
         '''
