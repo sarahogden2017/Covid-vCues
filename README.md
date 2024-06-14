@@ -52,7 +52,5 @@ Shreetika Poudel
   - https://medium.com/metakratos-studio/python-based-ai-powered-by-tensorflow-and-keras-52140b1495e3  
 - Twikit Example: downloading media  
   - https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py  
-- Remove duplicate images
-  - https://towardsdatascience.com/find-and-remove-duplicate-images-in-your-dataset-3e3ec818b978
-  - https://pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/  
-  - https://medium.com/towheeio/deletion-of-duplicate-images-using-machine-learning-19b7b25e3493 <- didn't work    
+- Remove duplicate images  
+  - https://pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/     
