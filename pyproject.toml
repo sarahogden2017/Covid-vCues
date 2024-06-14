@@ -13,6 +13,9 @@ keras = "^3.3.3"
 tensorflow = "^2.16.1"
 keras-preprocessing = "^1.1.2"
 scipy = "^1.13.1"
+numpy = "^1.26.4"
+imutils = "^0.5.4"
+opencv-python = "^4.10.0.82"
 
 
 [build-system]
