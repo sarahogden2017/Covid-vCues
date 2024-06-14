@@ -7,8 +7,8 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [X] Scrape ReCovery (Shreetika)  
 - [X] Scrape MM-Covid (Shreetika)
 - [ ] Scrape tweets with Twikit  
-- [ ] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
-- [ ] Remove duplicate images
+- [X] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
+- [X] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model  
       - [X] Small test model w/ Keras and Tensorflow (200 images each) (Sarah)  
       - [ ] Small test model w/ SVM (Shreetika)       
