@@ -8,6 +8,7 @@ from PIL import Image
 import numpy as np
 
 class SafeImageDataGenerator(Sequence):
+    # image data generator with error handling for corrupted images
     def __init__(self, generator):
         self.generator = generator
         self.on_epoch_end()
@@ -88,7 +89,7 @@ validation_steps = validation_generator.samples // validation_generator.batch_si
 
 # Define callbacks - improves performance
 callbacks = [
-    keras.callbacks.ModelCheckpoint('model_checkpoint.keras', save_best_only=True),
+    keras.callbacks.ModelCheckpoint('best_model.keras', save_best_only=True),
     keras.callbacks.EarlyStopping(monitor='val_loss', patience=3),
     keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=0.001),
     keras.callbacks.TensorBoard(log_dir='./logs')
@@ -104,3 +105,5 @@ history = model.fit(
     callbacks=callbacks
 )
 
+# Save the final model
+model.save('final_model.keras')
