@@ -12,7 +12,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [ ] Deep learning reliable vs unreliable model  
       - [X] Small test model w/ Keras and Tensorflow (200 images each) (Sarah)  
       - [X] Keras neural network using all images (Sarah)  
-      - [ ] Small test model w/ SVM (Shreetika)       
+      - [X] Small test model w/ SVM (also tried with random images on Google) (Shreetika)       
 - [ ] Develop category identifying models:  
       - [ ] Memes  
       - [ ] Ads  
@@ -55,3 +55,5 @@ Shreetika Poudel
   - https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py  
 - Remove duplicate images  
   - https://pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/     
+- SVM model for image classification
+  - https://medium.com/analytics-vidhya/image-classification-using-machine-learning-support-vector-machine-svm-dc7a0ec92e01
