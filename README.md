@@ -10,7 +10,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [X] Consolidate CoAID, ReCovery, & MM-Covid (Sarah)
 - [X] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model  
-      - [X] Small test model w/ Keras and Tensorflow (200 images each) (Sarah)
+      - [X] Small test model w/ Keras and Tensorflow (200 images each) (Sarah)  
       - [X] Keras neural network using all images (Sarah)  
       - [ ] Small test model w/ SVM (Shreetika)       
 - [ ] Develop category identifying models:  
