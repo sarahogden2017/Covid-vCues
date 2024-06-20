@@ -3,12 +3,11 @@ from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.utils import Sequence
-import os
-from PIL import Image
 import numpy as np
+import os
 
 class SafeImageDataGenerator(Sequence):
-    # image data generator with error handling for corrupted images
+    # Image data generator with error handling for corrupted images
     def __init__(self, generator):
         self.generator = generator
         self.on_epoch_end()
@@ -22,16 +21,17 @@ class SafeImageDataGenerator(Sequence):
                 batch = self.generator[idx]
                 return batch
             except Exception as e:
-                print(f"[WARNING] skipping corrupted image in batch {idx}: {e}")
+                print(f"[WARNING] Skipping corrupted image in batch {idx}: {e}")
                 idx = (idx + 1) % len(self.generator)
 
     def on_epoch_end(self):
         self.indexes = np.arange(len(self.generator))
 
+# Define directories
 train_dir = 'train/'
 validation_dir = 'validate/'
 
-# Process images
+# Data augmentation for training
 train_datagen = ImageDataGenerator(
     rescale=1./255,
     rotation_range=40,
@@ -43,8 +43,10 @@ train_datagen = ImageDataGenerator(
     fill_mode='nearest'
 )
 
+# Validation data should only be rescaled
 validation_datagen = ImageDataGenerator(rescale=1./255)
 
+# Creating generators
 train_generator = train_datagen.flow_from_directory(
     train_dir,
     target_size=(150, 150),
@@ -63,8 +65,8 @@ validation_generator = validation_datagen.flow_from_directory(
 train_generator_safe = SafeImageDataGenerator(train_generator)
 validation_generator_safe = SafeImageDataGenerator(validation_generator)
 
-# Model architecture - neural layers
-model = tf.keras.Sequential([
+# Model architecture
+model = keras.Sequential([
     layers.Conv2D(32, (3, 3), activation='relu', input_shape=(150, 150, 3)),
     layers.MaxPooling2D(2, 2),
     layers.Conv2D(64, (3, 3), activation='relu'),
@@ -87,7 +89,7 @@ model.compile(optimizer='adam',
 train_steps_per_epoch = train_generator.samples // train_generator.batch_size
 validation_steps = validation_generator.samples // validation_generator.batch_size
 
-# Define callbacks - improves performance
+# Define callbacks
 callbacks = [
     keras.callbacks.ModelCheckpoint('best_model.keras', save_best_only=True),
     keras.callbacks.EarlyStopping(monitor='val_loss', patience=3),
@@ -107,3 +109,4 @@ history = model.fit(
 
 # Save the final model
 model.save('final_model.keras')
+

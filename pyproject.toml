@@ -16,6 +16,7 @@ numpy = "^1.26.4"
 imutils = "^0.5.4"
 opencv-python = "^4.10.0.82"
 tensorflow = "^2.16.1"
+matplotlib = "^3.9.0"
 
 
 [build-system]
