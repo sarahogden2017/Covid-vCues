@@ -11,8 +11,10 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
 - [X] Remove duplicate images
 - [ ] Deep learning reliable vs unreliable model  
       - [X] Small test model w/ Keras and Tensorflow (200 images each) (Sarah)  
-      - [X] Keras neural network using all images (Sarah)  
-      - [X] Small test model w/ SVM (also tried with random images on Google) (Shreetika)       
+      - [X] Keras neural network using all images - Model is overfit? (Sarah)  
+      - [X] Small test model w/ SVM (also tried with random images on Google) (Shreetika)
+- [ ] Clean dataset
+- [ ] Redo model training with cleaned dataset
 - [ ] Develop category identifying models:  
       - [ ] Memes  
       - [ ] Ads  
