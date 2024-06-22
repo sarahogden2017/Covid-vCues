@@ -54,6 +54,5 @@ Shreetika Poudel
 - CNN in Python: https://medium.com/metakratos-studio/python-based-ai-powered-by-tensorflow-and-keras-52140b1495e3  
 - Twikit Example: https://github.com/d60/twikit/blob/main/examples/download_tweet_media.py  
 - Remove duplicate images: https://pyimagesearch.com/2020/04/20/detect-and-remove-duplicate-images-from-a-dataset-for-deep-learning/     
-- SVM model for image classification: https://medium.com/analytics-vidhya/image-classification-using-machine-learning-support-vector-machine-svm-dc7a0ec92e01  
-- Medium data cleaning for image classification: https://aidancoco.medium.com/data-cleaning-for-image-classification-de9439ac1075  
-- Medium data cleaning with Fastdup: https://joelnadarai.medium.com/cleaning-image-dataset-a-step-by-step-tutorial-with-fastdup-using-kaggle-a4d30afb4a5c  
+- SVM model for image classification: https://medium.com/analytics-vidhya/image-classification-using-machine-learning-support-vector-machine-svm-dc7a0ec92e01   
+- Fastdup: https://medium.com/visual-layer/fastdup-a-powerful-tool-to-manage-clean-curate-visual-data-at-scale-on-your-cpu-for-free-12e850946ead  
