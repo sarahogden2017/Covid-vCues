@@ -14,6 +14,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       - [X] Keras neural network using all images - Model is overfit? (Sarah)  
       - [X] Small test model w/ SVM (also tried with random images on Google) (Shreetika)
 - [ ] Clean dataset
+      - [ ] Try using Fastdup (Sarah)  
 - [ ] Redo model training with cleaned dataset
 - [ ] Develop category identifying models:  
       - [ ] Memes  
