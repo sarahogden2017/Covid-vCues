@@ -13,8 +13,12 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       - [X] Small test model w/ Keras and Tensorflow (200 images each) (Sarah)  
       - [X] Keras neural network using all images - Model is overfit? (Sarah)  
       - [X] Small test model w/ SVM (also tried with random images on Google) (Shreetika)
-- [ ] Clean dataset
-      - [ ] Try using Fastdup (Sarah)  
+- [ ] Clean dataset  
+      1.  Remove duplicates w/ existing script  
+      2.  Figure out how to remove pixilated images  
+      3.  Use OpenCV to identify people and manually del profile pictures  
+      4.  Remove favicon and icon type images by sorting images by size  
+      5.  Randomly select same amount of remaining images from each category  
 - [ ] Redo model training with cleaned dataset
 - [ ] Develop category identifying models:  
       - [ ] Memes  
