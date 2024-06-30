@@ -20,12 +20,20 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       4.  Remove favicon and icon type images by sorting images by size  
       5.  Randomly select same amount of remaining images from each category  
 - [ ] Redo model training with cleaned dataset
-- [ ] Develop category identifying models:  
+- [ ] Develop category identifying models:
+      Method 1  
       - [ ] Memes  
       - [ ] Ads  
       - [ ] Claims  
       - [ ] Fact-checks  
-      - [ ] Logos  
+      - [ ] Logos
+      Method 2
+      - [ ] Infographics/Diagrams
+      - [ ] Photographs
+      - [ ] Illustrations
+      - [ ] Memes
+      - [ ] Advertisements
+      - [ ] Misc/Logos
       - Image naming convention idea: (un)reliable.subcategory.####.jpg/png  
 - [ ] Analysis of dataset breakdown
 
