@@ -28,12 +28,12 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       - [ ] Fact-checks  
       - [ ] Logos
       Method 2
-      - [ ] Infographics/Diagrams
-      - [ ] Photographs
-      - [ ] Illustrations
-      - [ ] Memes
-      - [ ] Advertisements
-      - [ ] Misc/Logos
+      - [ ] Infographics/Diagrams  
+      - [ ] Photographs  
+      - [ ] Illustrations  
+      - [ ] Memes  
+      - [ ] Advertisements  
+      - [ ] Misc/Logos  
       - Image naming convention idea: (un)reliable.subcategory.####.jpg/png  
 - [ ] Analysis of dataset breakdown
 
