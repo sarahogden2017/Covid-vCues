@@ -26,7 +26,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       - [ ] Ads  
       - [ ] Claims  
       - [ ] Fact-checks  
-      - [ ] Logos
+      - [ ] Logos  
       Method 2
       - [ ] Infographics/Diagrams  
       - [ ] Photographs  
