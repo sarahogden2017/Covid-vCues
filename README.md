@@ -26,6 +26,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       - [ ] Claims  
       - [ ] Fact-checks  
       - [ ] Logos  
+      - Image naming convention idea: (un)reliable.subcategory.####.jpg/png  
 - [ ] Analysis of dataset breakdown
 
 ## Sources
