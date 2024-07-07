@@ -19,7 +19,7 @@ class Spider2Spider(scrapy.Spider):
         '''
         Request all urls in input file
         '''
-        url_files = ['../urls_recovery/reliableUrls.txt', '../urls_coaid/NewsRealUrl.txt', '../urls_MM/MMunreliableUrls3.txt']
+        url_files = ['../urls_recovery/reliableUrls.txt', '../urls_coaid/NewsRealUrl.txt', '../urls_MM/MMreliableUrls3.txt']
         urls = []
         for file in url_files:
             with open(file, 'r') as f:
