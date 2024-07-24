@@ -19,7 +19,7 @@ This is a dataset research project developed to assist Professor Ankur Chattopad
       3.  Use OpenCV to identify people and manually del profile pictures (Shreetika)  
       4.  Remove favicon and icon type images by sorting images by size (Shreetika)  
       5.  **Randomly select same amount of remaining images from each category**  
-- [ ] Redo model training with cleaned dataset
+- [X] Redo model training with cleaned dataset-SVM Model (Shreetika)
 - [ ] Develop category identifying models:
       Method 1  
       - [ ] Memes  
