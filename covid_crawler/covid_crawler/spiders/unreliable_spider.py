@@ -5,7 +5,7 @@ class Spider2Spider(scrapy.Spider):
     '''
     Spider to collect images from reliable sources of COVID-19 information
     '''
-    name = "reliable_spider"
+    name = "unreliable_spider"
 
     custom_settings = {
         'ITEM_PIPELINES': {
