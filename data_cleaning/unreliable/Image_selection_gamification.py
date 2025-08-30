@@ -4,8 +4,8 @@ from PIL import Image
 import pytesseract
 
 # --- CONFIG ---
-input_folder = "/Users/shreetikapoudel/Documents/GitHub/Covid-vCues/data_cleaning/final/unreliable"
-output_folder = "unreliable_gamification"
+input_folder = "/Users/shreetikapoudel/Documents/GitHub/Covid-vCues/data_cleaning/final/reliable"
+output_folder = "reliable_gamification"
 
 # Ensure output folder exists
 os.makedirs(output_folder, exist_ok=True)
